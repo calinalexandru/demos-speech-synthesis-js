@@ -5,7 +5,7 @@
     for (let key in voices) {
     voice = voices[key];
         if (voice['lang'].indexOf("en-") !== -1 ) {
-            let message = "Hi! I am Steven Hawking and, unfortunely, i am very sorry to say, that i am dead as fuck"
+            let message = "Man in his arrogance thinks himself a great work, worthy of the interposition of a deity. More humble, and I believe truer, to consider him created from animals."
             let buff = {lang: voice['lang'], msg: message};
             arr.push(buff);
             
